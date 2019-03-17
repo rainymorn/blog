@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>RainyMornのBlog</title>
+  
+  <subtitle>Keep on going never give up.</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://rainymorn.github.io/blog/"/>
+  <updated>2019-03-17T05:47:52.000Z</updated>
+  <id>https://rainymorn.github.io/blog/</id>
+  
+  <author>
+    <name>RainyMorn</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>T est</title>
+    <link href="https://rainymorn.github.io/blog/2019/03/17/T-est/"/>
+    <id>https://rainymorn.github.io/blog/2019/03/17/T-est/</id>
+    <published>2019-03-17T05:47:52.000Z</published>
+    <updated>2019-03-17T05:47:52.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="https://rainymorn.github.io/blog/2019/03/17/Test/"/>
+    <id>https://rainymorn.github.io/blog/2019/03/17/Test/</id>
+    <published>2019-03-17T05:45:54.000Z</published>
+    <updated>2019-03-17T05:45:54.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rainymorn.github.io/blog/2019/03/17/Hello-World-0/"/>
+    <id>https://rainymorn.github.io/blog/2019/03/17/Hello-World-0/</id>
+    <published>2019-03-17T03:31:00.000Z</published>
+    <updated>2019-03-17T10:42:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><ol><li>测试</li><li>是否支持</li><li>实际运行</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World&quot;&gt;&lt;/a&gt;Hello World&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;li&gt;是否支持&lt;/li&gt;
+&lt;li&gt;实际
+      
+    
+    </summary>
+    
+      <category term="总分类" scheme="https://rainymorn.github.io/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/"/>
+    
+      <category term="子分类" scheme="https://rainymorn.github.io/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/%E5%AD%90%E5%88%86%E7%B1%BB/"/>
+    
+    
+      <category term="标签一" scheme="https://rainymorn.github.io/blog/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
+    
+      <category term="标签二" scheme="https://rainymorn.github.io/blog/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rainymorn.github.io/blog/2019/03/14/test-hello-world/"/>
+    <id>https://rainymorn.github.io/blog/2019/03/14/test-hello-world/</id>
+    <published>2019-03-14T02:45:51.000Z</published>
+    <updated>2019-03-14T02:45:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
