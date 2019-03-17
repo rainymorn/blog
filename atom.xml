@@ -5,9 +5,9 @@
   <subtitle>Keep on going never give up.</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://www.rainymorn.com/blog/"/>
+  <link href="http://www.rainymorn.com/blog/"/>
   <updated>2019-03-17T10:42:11.000Z</updated>
-  <id>https://www.rainymorn.com/blog/</id>
+  <id>http://www.rainymorn.com/blog/</id>
   
   <author>
     <name>RainyMorn</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.rainymorn.com/blog/2019/03/17/Hello-World/"/>
-    <id>https://www.rainymorn.com/blog/2019/03/17/Hello-World/</id>
+    <link href="http://www.rainymorn.com/blog/2019/03/17/Hello-World/"/>
+    <id>http://www.rainymorn.com/blog/2019/03/17/Hello-World/</id>
     <published>2019-03-17T03:31:00.000Z</published>
     <updated>2019-03-17T10:42:11.000Z</updated>
     
@@ -37,14 +37,14 @@
     
     </summary>
     
-      <category term="总分类" scheme="https://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/"/>
+      <category term="总分类" scheme="http://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/"/>
     
-      <category term="子分类" scheme="https://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/%E5%AD%90%E5%88%86%E7%B1%BB/"/>
+      <category term="子分类" scheme="http://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/%E5%AD%90%E5%88%86%E7%B1%BB/"/>
     
     
-      <category term="标签一" scheme="https://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
+      <category term="标签一" scheme="http://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
     
-      <category term="标签二" scheme="https://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
+      <category term="标签二" scheme="http://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
     
   </entry>
   
