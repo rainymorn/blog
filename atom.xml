@@ -5,9 +5,9 @@
   <subtitle>Keep on going never give up.</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://rainymorn.github.io/blog/"/>
+  <link href="https://www.rainymorn.com/blog/"/>
   <updated>2019-03-17T05:47:52.000Z</updated>
-  <id>https://rainymorn.github.io/blog/</id>
+  <id>https://www.rainymorn.com/blog/</id>
   
   <author>
     <name>RainyMorn</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>T est</title>
-    <link href="https://rainymorn.github.io/blog/2019/03/17/T-est/"/>
-    <id>https://rainymorn.github.io/blog/2019/03/17/T-est/</id>
+    <link href="https://www.rainymorn.com/blog/2019/03/17/T-est/"/>
+    <id>https://www.rainymorn.com/blog/2019/03/17/T-est/</id>
     <published>2019-03-17T05:47:52.000Z</published>
     <updated>2019-03-17T05:47:52.000Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Test</title>
-    <link href="https://rainymorn.github.io/blog/2019/03/17/Test/"/>
-    <id>https://rainymorn.github.io/blog/2019/03/17/Test/</id>
+    <link href="https://www.rainymorn.com/blog/2019/03/17/Test/"/>
+    <id>https://www.rainymorn.com/blog/2019/03/17/Test/</id>
     <published>2019-03-17T05:45:54.000Z</published>
     <updated>2019-03-17T05:45:54.000Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://rainymorn.github.io/blog/2019/03/17/Hello-World-0/"/>
-    <id>https://rainymorn.github.io/blog/2019/03/17/Hello-World-0/</id>
+    <link href="https://www.rainymorn.com/blog/2019/03/17/Hello-World-0/"/>
+    <id>https://www.rainymorn.com/blog/2019/03/17/Hello-World-0/</id>
     <published>2019-03-17T03:31:00.000Z</published>
     <updated>2019-03-17T10:42:11.000Z</updated>
     
@@ -65,21 +65,21 @@
     
     </summary>
     
-      <category term="总分类" scheme="https://rainymorn.github.io/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/"/>
+      <category term="总分类" scheme="https://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/"/>
     
-      <category term="子分类" scheme="https://rainymorn.github.io/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/%E5%AD%90%E5%88%86%E7%B1%BB/"/>
+      <category term="子分类" scheme="https://www.rainymorn.com/blog/categories/%E6%80%BB%E5%88%86%E7%B1%BB/%E5%AD%90%E5%88%86%E7%B1%BB/"/>
     
     
-      <category term="标签一" scheme="https://rainymorn.github.io/blog/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
+      <category term="标签一" scheme="https://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
     
-      <category term="标签二" scheme="https://rainymorn.github.io/blog/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
+      <category term="标签二" scheme="https://www.rainymorn.com/blog/tags/%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://rainymorn.github.io/blog/2019/03/14/test-hello-world/"/>
-    <id>https://rainymorn.github.io/blog/2019/03/14/test-hello-world/</id>
+    <link href="https://www.rainymorn.com/blog/2019/03/14/test-hello-world/"/>
+    <id>https://www.rainymorn.com/blog/2019/03/14/test-hello-world/</id>
     <published>2019-03-14T02:45:51.000Z</published>
     <updated>2019-03-14T02:45:51.000Z</updated>
     
