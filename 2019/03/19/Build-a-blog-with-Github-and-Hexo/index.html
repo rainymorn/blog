@@ -7,9 +7,8 @@
     error: 'Copy error',
     noSupport: 'The browser does not support'
   }
-} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Build-Steps"><span class="toc-number">1.</span> <span class="toc-text">Build Steps:</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="http://www.rainymorn.com/blog/img/avatar.jpg"></div><div class="author-info__name text-center">RainyMorn</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/blog/archives"><span class="pull-left">Articles</span><span class="pull-right">2</span></a><a class="author-info-articles__tags article-meta" href="/blog/tags"><span class="pull-left">Tags</span><span class="pull-right">3</span></a><a class="author-info-articles__categories article-meta" href="/blog/categories"><span class="pull-left">Categories</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="plain" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/blog/">RainyMornのBlog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/blog/">Home</a><a class="site-page" href="/blog/archives">Archives</a><a class="site-page" href="/blog/tags">Tags</a><a class="site-page" href="/blog/categories">Categories</a></span></div></div><div class="layout" id="content-inner"><article id="post"><div class="plain" id="post-title">Build a blog with Github and Hexo</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-19</time><span class="post-meta__separator">|</span><i class="fa fa-inbox" aria-hidden="true"></i><a class="post-meta__categories" href="/blog/categories/notes/"> notes</a><span class="post-meta__separator">|</span><i class="fa fa-comment-o" aria-hidden="true"></i><a href="/blog/2019/03/19/Build-a-blog-with-Github-and-Hexo/#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="2019/03/19/Build-a-blog-with-Github-and-Hexo/"></span></a></div><div class="article-container" id="post-content"><h2 id="Build-Steps"><a href="#Build-Steps" class="headerlink" title="Build Steps:"></a>Build Steps:</h2><ul>
-<li><p>Install Hexo:</p>
-<p>There are a lot of tutorials about how to install Hexo on the internet, but it’s better to follow the official tutorial.</p>
+} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Build-Steps"><span class="toc-number">1.</span> <span class="toc-text">Build Steps:</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install-Hexo"><span class="toc-number">1.1.</span> <span class="toc-text">Install Hexo:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-git-repository"><span class="toc-number">1.2.</span> <span class="toc-text">Create a git repository</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Create-a-git-repository-using-the-blog-as-name-and-enable-GithubPages-feature"><span class="toc-number">1.2.1.</span> <span class="toc-text">Create a git repository using the blog as name, and enable GithubPages feature</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Create-a-git-repository-using-lt-github-username-gt-github-io-as-name"><span class="toc-number">1.2.2.</span> <span class="toc-text">Create a git repository using &lt;github username&gt;.github.io as name</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Modify-hexo-setting"><span class="toc-number">1.2.3.</span> <span class="toc-text">Modify hexo setting:</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#in-the-main-config-yml-file"><span class="toc-number">1.2.3.1.</span> <span class="toc-text">in the main _config.yml file:</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#int-the-theme’s-config-yml-file"><span class="toc-number">1.2.3.2.</span> <span class="toc-text">int the theme’s _config.yml file:</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Set-domain-name-resolution-as-below"><span class="toc-number">1.3.</span> <span class="toc-text">Set domain name resolution as below:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Add-CNAME-file"><span class="toc-number">1.4.</span> <span class="toc-text">Add CNAME file</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Complete-Hexo’s-deploy-setting-in-the-config-yml-file"><span class="toc-number">1.5.</span> <span class="toc-text">Complete Hexo’s deploy setting in the _config.yml file</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Other-details"><span class="toc-number">1.6.</span> <span class="toc-text">Other details:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#About-images"><span class="toc-number">1.6.1.</span> <span class="toc-text">About images:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Theme"><span class="toc-number">1.6.2.</span> <span class="toc-text">Theme:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Category"><span class="toc-number">1.6.3.</span> <span class="toc-text">Category:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#About-source-folder"><span class="toc-number">1.6.4.</span> <span class="toc-text">About source folder</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#There-are-still-many-places-need-perfect-follow-the-official-tutorial"><span class="toc-number">1.7.</span> <span class="toc-text">There are still many places need perfect, follow the official tutorial:</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="http://www.rainymorn.com/blog/img/avatar.jpg"></div><div class="author-info__name text-center">RainyMorn</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/blog/archives"><span class="pull-left">Articles</span><span class="pull-right">2</span></a><a class="author-info-articles__tags article-meta" href="/blog/tags"><span class="pull-left">Tags</span><span class="pull-right">3</span></a><a class="author-info-articles__categories article-meta" href="/blog/categories"><span class="pull-left">Categories</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div class="plain" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/blog/">RainyMornのBlog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/blog/">Home</a><a class="site-page" href="/blog/archives">Archives</a><a class="site-page" href="/blog/tags">Tags</a><a class="site-page" href="/blog/categories">Categories</a></span></div></div><div class="layout" id="content-inner"><article id="post"><div class="plain" id="post-title">Build a blog with Github and Hexo</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-19</time><span class="post-meta__separator">|</span><i class="fa fa-inbox" aria-hidden="true"></i><a class="post-meta__categories" href="/blog/categories/notes/"> notes</a><span class="post-meta__separator">|</span><i class="fa fa-comment-o" aria-hidden="true"></i><a href="/blog/2019/03/19/Build-a-blog-with-Github-and-Hexo/#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="2019/03/19/Build-a-blog-with-Github-and-Hexo/"></span></a></div><div class="article-container" id="post-content"><h2 id="Build-Steps"><a href="#Build-Steps" class="headerlink" title="Build Steps:"></a>Build Steps:</h2><ul>
+<li><h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo:"></a>Install Hexo:</h3><p>There are a lot of tutorials about how to install Hexo on the internet, but it’s better to follow the official tutorial.</p>
 <ol>
 <li><p>Node.js, NPM, Git must be installed in the system</p>
 <p>Check if installed by below commands:</p>
@@ -34,28 +33,23 @@
 </li>
 </ol>
 </li>
-<li><p>Create a git repository</p>
-<p>Must use <code>&lt;github username&gt;.github.io</code> for this repository’s name.</p>
+<li><h3 id="Create-a-git-repository"><a href="#Create-a-git-repository" class="headerlink" title="Create a git repository"></a>Create a git repository</h3><p>Must use <code>&lt;github username&gt;.github.io</code> for this repository’s name.</p>
 <blockquote>
 <p>Note:</p>
 <p>If want to create a custom page as the blog home page, then jump to the real blog from this page, follow below steps:</p>
 <ul>
-<li><p>Create a git repository using the <code>blog</code> as name, and enable GithubPages feature</p>
-<p>The HexoBlog files will be upload to this repository.</p>
+<li><h4 id="Create-a-git-repository-using-the-blog-as-name-and-enable-GithubPages-feature"><a href="#Create-a-git-repository-using-the-blog-as-name-and-enable-GithubPages-feature" class="headerlink" title="Create a git repository using the blog as name, and enable GithubPages feature"></a>Create a git repository using the <code>blog</code> as name, and enable GithubPages feature</h4><p>The HexoBlog files will be upload to this repository.</p>
 <p>The url of this page will be like below:</p>
 <p><code>&lt;github username&gt;.github.io/blog/</code> </p>
 </li>
-<li><p>Create a git repository using <code>&lt;github username&gt;.github.io</code> as name</p>
-<p>Create a html file with name “index.html”,</p>
+<li><h4 id="Create-a-git-repository-using-lt-github-username-gt-github-io-as-name"><a href="#Create-a-git-repository-using-lt-github-username-gt-github-io-as-name" class="headerlink" title="Create a git repository using &lt;github username&gt;.github.io as name"></a>Create a git repository using <code>&lt;github username&gt;.github.io</code> as name</h4><p>Create a html file with name “index.html”,</p>
 <p>add a link that pointing to the real blog in this file,</p>
 <p>then upload the file to this repository.</p>
 <p>The url of this page will be your main domain:</p>
 <p><code>http://www.x.com</code></p>
 </li>
-<li><p>Modify hexo setting:</p>
-<ul>
-<li><p>in the main <code>_config.yml</code> file:</p>
-<p>Modify the <code>url</code> and <code>root</code> properties like blow:</p>
+<li><h4 id="Modify-hexo-setting"><a href="#Modify-hexo-setting" class="headerlink" title="Modify hexo setting:"></a>Modify hexo setting:</h4><ul>
+<li><h5 id="in-the-main-config-yml-file"><a href="#in-the-main-config-yml-file" class="headerlink" title="in the main _config.yml file:"></a>in the main <code>_config.yml</code> file:</h5><p>Modify the <code>url</code> and <code>root</code> properties like blow:</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&gt;     url: http://www.xxx.com/blog</span></span><br><span class="line"><span class="string">&gt;     root: /blog/</span></span><br><span class="line"><span class="string">&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -64,14 +58,12 @@
 </blockquote>
 <blockquote>
 <ul>
-<li><p>int the theme’s <code>_config.yml</code> file:</p>
-<p>modify the <code>menu</code> property.</p>
+<li><h5 id="int-the-theme’s-config-yml-file"><a href="#int-the-theme’s-config-yml-file" class="headerlink" title="int the theme’s _config.yml file:"></a>int the theme’s <code>_config.yml</code> file:</h5><p>modify the <code>menu</code> property.</p>
 </li>
 </ul>
 </blockquote>
 </li>
-<li><p>Set domain name resolution as below:</p>
-<p><code>A @ &lt;github ip address&gt;</code></p>
+<li><h3 id="Set-domain-name-resolution-as-below"><a href="#Set-domain-name-resolution-as-below" class="headerlink" title="Set domain name resolution as below:"></a>Set domain name resolution as below:</h3><p><code>A @ &lt;github ip address&gt;</code></p>
 <p><code>CNAME www  &lt;github username&gt;.github.io</code></p>
 <blockquote>
 <p>Get <code>&lt;github ip address&gt;</code> by ping <code>&lt;github username&gt;.github.io</code></p>
@@ -81,24 +73,20 @@
 <p><code>dig +noall +answer xxx.com</code></p>
 </blockquote>
 </li>
-<li><p>Add <code>CNAME</code> file</p>
-<p>In the HexoBlog main folder’s <code>source</code> subdirectory, add a file named <code>CNAME</code>, write your domain name to this file like below:</p>
+<li><h3 id="Add-CNAME-file"><a href="#Add-CNAME-file" class="headerlink" title="Add CNAME file"></a>Add <code>CNAME</code> file</h3><p>In the HexoBlog main folder’s <code>source</code> subdirectory, add a file named <code>CNAME</code>, write your domain name to this file like below:</p>
 <p><code>www.x.com</code></p>
 <blockquote>
 <p>If you have made a custom page as your blog’s home page, you need to create the <code>CNAME</code> file in the git repository where the custom page is located, not the <code>source</code> folder</p>
 </blockquote>
 </li>
-<li><p>Complete Hexo’s <code>deploy</code> setting in the <code>_config.yml</code> file</p>
-<p>Do as below:</p>
+<li><h3 id="Complete-Hexo’s-deploy-setting-in-the-config-yml-file"><a href="#Complete-Hexo’s-deploy-setting-in-the-config-yml-file" class="headerlink" title="Complete Hexo’s deploy setting in the _config.yml file"></a>Complete Hexo’s <code>deploy</code> setting in the <code>_config.yml</code> file</h3><p>Do as below:</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">&lt;git</span> <span class="string">repo</span> <span class="string">SSH</span> <span class="string">link&gt;</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br><span class="line"><span class="attr">  name:</span> <span class="string">&lt;github</span> <span class="string">username&gt;</span></span><br><span class="line"><span class="attr">  email:</span> <span class="string">&lt;github</span> <span class="string">email&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>If there are multiple github account, also can replace the hostname with a SSH HostAlias in the <code>&lt;git repo SSH link&gt;</code>.</p>
 </blockquote>
 </li>
-<li><p>Other details:</p>
-<ul>
-<li><p>About images:</p>
-<ul>
+<li><h3 id="Other-details"><a href="#Other-details" class="headerlink" title="Other details:"></a>Other details:</h3><ul>
+<li><h4 id="About-images"><a href="#About-images" class="headerlink" title="About images:"></a>About images:</h4><ul>
 <li><p>In the <code>_config.yml</code> file, enable <code>post_asset_folder</code> setting</p>
 </li>
 <li><p>install this Plug-in:</p>
@@ -106,8 +94,7 @@
 </li>
 </ul>
 </li>
-<li><p>Theme:</p>
-<ul>
+<li><h4 id="Theme"><a href="#Theme" class="headerlink" title="Theme:"></a>Theme:</h4><ul>
 <li><p>clone to local:</p>
 <p><code>git clone -b master &lt;theme&#39;s git repo linke&gt; themes/melody</code></p>
 </li>
@@ -115,18 +102,15 @@
 </li>
 </ul>
 </li>
-<li><p>Category:</p>
-<p>The Hexo’s category has order and hierarchy.</p>
+<li><h4 id="Category"><a href="#Category" class="headerlink" title="Category:"></a>Category:</h4><p>The Hexo’s category has order and hierarchy.</p>
 <p>If add two categories for one article, then the second category will become the first category’ subcategory.</p>
 </li>
-<li><p>About <code>source</code> folder</p>
-<p>Can add files freely in this folder,</p>
+<li><h4 id="About-source-folder"><a href="#About-source-folder" class="headerlink" title="About source folder"></a>About <code>source</code> folder</h4><p>Can add files freely in this folder,</p>
 <p>Hexo will auto render the <code>.md</code> and <code>html</code> files in this folder, other files in this folder will be upload to git repository keep original.</p>
 </li>
 </ul>
 </li>
-<li><p>There are still many places need perfect, follow the official tutorial:</p>
-<p><a href="https://hexo.io/docs/" target="_blank" rel="noopener">https://hexo.io/docs/</a></p>
+<li><h3 id="There-are-still-many-places-need-perfect-follow-the-official-tutorial"><a href="#There-are-still-many-places-need-perfect-follow-the-official-tutorial" class="headerlink" title="There are still many places need perfect, follow the official tutorial:"></a>There are still many places need perfect, follow the official tutorial:</h3><p><a href="https://hexo.io/docs/" target="_blank" rel="noopener">https://hexo.io/docs/</a></p>
 </li>
 </ul>
 </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">RainyMorn</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://www.rainymorn.com/blog/2019/03/19/Build-a-blog-with-Github-and-Hexo/">http://www.rainymorn.com/blog/2019/03/19/Build-a-blog-with-Github-and-Hexo/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/git/">git</a><a class="post-meta__tags" href="/blog/tags/hexo/">hexo</a></div><nav id="pagination"><div class="next-post pull-right"><a href="/blog/2019/03/18/One-System-Two-GitHub-Account/"><span>One System Two GitHub Account</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="disqus_thread"></div><script>var unused = null;
