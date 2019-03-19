@@ -270,7 +270,7 @@ blockquote {
 .article-container code {
   padding: 0.1rem 0.2rem;
   background: rgba(27,31,35,0.05);
-  color: #1f2d3d;
+  color: #970000;
   word-wrap: break-word;
   font-size: 14px;
 }
@@ -1260,6 +1260,7 @@ footer.is-mobile {
 #content-inner h4,
 #content-inner h5,
 #content-inner h6 {
+  border-bottom: 1px solid #d3d3d3;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1597,6 +1598,14 @@ img:hover {
     width: 900px;
     height: 506.25px;
   }
+}
+strong {
+  color: #800094;
+}
+li>p:nth-child(1) {
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 #sidebar {
   position: fixed;
