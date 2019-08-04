@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://www.rainymorn.com/blog/"/>
-  <updated>2019-05-10T18:12:28.000Z</updated>
+  <updated>2019-08-04T22:52:19.000Z</updated>
   <id>http://www.rainymorn.com/blog/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>developed recently for a company</title>
+    <link href="http://www.rainymorn.com/blog/2019/08/05/developed-recently-for-a-company/"/>
+    <id>http://www.rainymorn.com/blog/2019/08/05/developed-recently-for-a-company/</id>
+    <published>2019-08-04T22:38:40.000Z</published>
+    <updated>2019-08-04T22:52:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>a tool used to load and display obj models</p><p>skills used:</p><ul><li>Qt</li><li>C++</li><li>OpenGL</li></ul><p><img src="/blog/2019/08/05/developed-recently-for-a-company/objview.gif" alt="objview"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;a tool used to load and display obj models&lt;/p&gt;
+&lt;p&gt;skills used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qt&lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;li&gt;OpenGL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/blog
+      
+    
+    </summary>
+    
+      <category term="notes" scheme="http://www.rainymorn.com/blog/categories/notes/"/>
+    
+    
+      <category term="obj" scheme="http://www.rainymorn.com/blog/tags/obj/"/>
+    
+      <category term="Qt" scheme="http://www.rainymorn.com/blog/tags/Qt/"/>
+    
+      <category term="C++" scheme="http://www.rainymorn.com/blog/tags/C/"/>
+    
+      <category term="OpenGL" scheme="http://www.rainymorn.com/blog/tags/OpenGL/"/>
+    
+  </entry>
   
   <entry>
     <title>Build libcurl</title>
