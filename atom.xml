@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://www.rainymorn.com/blog/"/>
-  <updated>2019-08-04T22:52:19.000Z</updated>
+  <updated>2019-08-13T15:48:38.000Z</updated>
   <id>http://www.rainymorn.com/blog/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>QTimer will increase interval when App becoming background on OS X</title>
+    <link href="http://www.rainymorn.com/blog/2019/08/13/QTimer-will-increase-interval-when-App-becoming-background-on-OS-X/"/>
+    <id>http://www.rainymorn.com/blog/2019/08/13/QTimer-will-increase-interval-when-App-becoming-background-on-OS-X/</id>
+    <published>2019-08-13T15:27:19.000Z</published>
+    <updated>2019-08-13T15:48:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is because OSX’s AppNap function,</p><p>One App will be sleeped by AppNap When it becoming background for a while.</p><h3 id="this-class-will-disable-AppNap"><a href="#this-class-will-disable-AppNap" class="headerlink" title="this class will disable AppNap"></a>this class will disable AppNap</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//appnap.h</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"qglobal.h"</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&lt;objc/objc.h&gt;</span></span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">AppNapDisabler</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    AppNapDisabler();</span><br><span class="line">    ~AppNapDisabler();</span><br><span class="line">    AppNapDisabler(<span class="keyword">const</span> AppNapDisabler&amp;) = <span class="keyword">delete</span>;</span><br><span class="line">    AppNapDisabler&amp; <span class="keyword">operator</span>=(<span class="keyword">const</span> AppNapDisabler&amp;) = <span class="keyword">delete</span>;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    id m_activity;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//appnap.mm</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"appnap.h"</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&lt;AppKit/AppKit.h&gt;</span></span></span><br><span class="line">AppNapDisabler::AppNapDisabler()</span><br><span class="line">&#123;</span><br><span class="line">    m_activity = [[NSProcessInfo processInfo] beginActivityWithOptions:NSActivityBackground</span><br><span class="line">                                                                reason:@<span class="string">"Qt Auto Test"</span>];</span><br><span class="line">    [m_activity retain];</span><br><span class="line">&#125;</span><br><span class="line">AppNapDisabler::~AppNapDisabler()</span><br><span class="line">&#123;</span><br><span class="line">    [[NSProcessInfo processInfo] endActivity:m_activity];</span><br><span class="line">    [m_activity release];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="how-to-use-this-class-in-Qt"><a href="#how-to-use-this-class-in-Qt" class="headerlink" title="how to use this class in Qt:"></a>how to use this class in Qt:</h3><ol><li><p>modify .pro file</p><ul><li><p>add this line</p><p><code>OBJECTIVE_SOURCES += appnap.mm</code></p></li><li><p>del the <code>appnap.mm</code> from .pro file’s <code>SOURCES</code> Setting</p><p>this setting was added automatically by ide when you create <code>appnap.h</code>  file.</p></li></ul></li><li><p>add one variable of AppNapDisabler type in the main function</p><p><code>AppNapDisabler appNap;</code></p></li><li><p>Done</p></li></ol><h3 id="thanks-this-tutorial"><a href="#thanks-this-tutorial" class="headerlink" title="thanks this tutorial:"></a>thanks this tutorial:</h3><p><a href="https://github.com/msorvig/qt-and-app-nap" target="_blank" rel="noopener">https://github.com/msorvig/qt-and-app-nap</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This is because OSX’s AppNap function,&lt;/p&gt;
+&lt;p&gt;One App will be sleeped by AppNap When it becoming background for a while.&lt;/p&gt;
+&lt;h3 id=&quot;this
+      
+    
+    </summary>
+    
+      <category term="notes" scheme="http://www.rainymorn.com/blog/categories/notes/"/>
+    
+    
+      <category term="Qt" scheme="http://www.rainymorn.com/blog/tags/Qt/"/>
+    
+      <category term="OSX" scheme="http://www.rainymorn.com/blog/tags/OSX/"/>
+    
+      <category term="QTimer" scheme="http://www.rainymorn.com/blog/tags/QTimer/"/>
+    
+      <category term="AppNap" scheme="http://www.rainymorn.com/blog/tags/AppNap/"/>
+    
+  </entry>
+  
+  <entry>
     <title>developed recently for a company</title>
     <link href="http://www.rainymorn.com/blog/2019/08/05/developed-recently-for-a-company/"/>
     <id>http://www.rainymorn.com/blog/2019/08/05/developed-recently-for-a-company/</id>
     <published>2019-08-04T22:38:40.000Z</published>
-    <updated>2019-08-04T22:52:19.000Z</updated>
+    <updated>2019-08-05T02:26:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>a tool used to load and display obj models</p><p>skills used:</p><ul><li>Qt</li><li>C++</li><li>OpenGL</li></ul><p><img src="/blog/2019/08/05/developed-recently-for-a-company/objview.gif" alt="objview"></p>]]></content>
     
@@ -44,9 +77,9 @@
       <category term="notes" scheme="http://www.rainymorn.com/blog/categories/notes/"/>
     
     
-      <category term="obj" scheme="http://www.rainymorn.com/blog/tags/obj/"/>
-    
       <category term="Qt" scheme="http://www.rainymorn.com/blog/tags/Qt/"/>
+    
+      <category term="obj" scheme="http://www.rainymorn.com/blog/tags/obj/"/>
     
       <category term="C++" scheme="http://www.rainymorn.com/blog/tags/C/"/>
     
